@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-11-03" view-index="0" gantt-divider-location="487" resource-divider-location="300" version="3.3.3312" locale="en_US">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd15" name="Notes" width="20" order="0"/>
+        <field id="tpd3" name="Name" width="185" order="0"/>
+        <field id="tpd4" name="Begin date" width="115" order="1"/>
+        <field id="tpd5" name="End date" width="82" order="2"/>
+        <field id="tpd6" name="Duration" width="54" order="3"/>
+        <field id="tpd7" name="Completion" width="50" order="4"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[1]]></timeline>
+        <option id="color.recent"><![CDATA[#cccccc #9999ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="New custom column" type="custom" valuetype="text" defaultvalue=""/>
+        </taskproperties>
+        <task id="0" uid="ecf2956c9d2a4859ad5a9b9b096d038b" name="1.)Origin and importance of a framwork" color="#cccccc" meeting="false" start="2024-11-11" duration="11" complete="12" thirdDate="2024-11-11" thirdDate-constraint="1" expand="true">
+            <notes><![CDATA[1.1) Study All Data in Excel
+1.2) Study the Problem and Define the Project Objectives ]]></notes>
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="b4068fd8712546df945f29461dc03194" name="4.)Software development" color="#cccccc" meeting="false" start="2025-01-07" duration="60" complete="0" expand="true">
+            <notes><![CDATA[4.1) Write Code and Develop Software]]></notes>
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" uid="dcb14f5348e246d7b08fb86daa15ab98" name="5.) Testing" color="#cccccc" meeting="false" start="2025-04-01" duration="32" complete="0" expand="true">
+            <notes><![CDATA[5.1) Unit Test
+5.2) Integration Test
+5.3) System Test
+5.4) Acceptance Test]]></notes>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="c68debae6767453b8432ed86b292b27e" name="2.) Scope and Requirements" color="#cccccc" meeting="false" start="2024-11-26" duration="15" complete="4" thirdDate="2024-11-11" thirdDate-constraint="1" expand="true">
+            <notes><![CDATA[2.1)Requirement analysis scope
+2.1.1) User "What type of system do users need"
+2.1.2) System 
+2.1.2.1) Hard ware
+2.1.2.2.2) Soft ware 
+2.1.2.2.1) Figma
+2.1.2.2.2) Visual Studio Code 
+2.1.2.2.3) HMTL
+2.1.2.2.4) CSS
+2.1.2.2.5) draw.io
+2.3) Design ER Diagram(System)
+2.4) Design Flow chart (System)
+2.5 Design User case(System)]]></notes>
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="a53c37c5e9c34bbfaa6192a871d9d335" name="3.) UX/UI Desugn and Data structure" color="#cccccc" meeting="false" start="2024-12-17" duration="15" complete="0" expand="true">
+            <notes><![CDATA[3.1) Master Data
+3.1.1) Issue Catagories
+3.1.2) Issue Record
+3.1.3) Work number
+3.2) UI figma Design
+3.2.1) User
+3.2.2) Admin
+3.2.3) Log in
+3.3) UX Enhance and enrich user experieence
+3.4) Start designing in Figma]]></notes>
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="0887d6e1cc274f1a909ec6addca2e474" name="6.) Deployment" meeting="false" start="2025-05-15" duration="1" complete="0" expand="true">
+            <notes><![CDATA[6.1) Deliver the work once  it has passed the testing]]></notes>
+        </task>
+        <task id="8" uid="7edc2523bd74480e902c1354271232aa" name="7.) Project Summary Document" color="#cccccc" meeting="false" start="2024-11-11" duration="100" complete="5" expand="true">
+            <notes><![CDATA[7.1) Write a summary document of the entire project
+7.1.1) Origin and Importance  of a Framework
+7.1.2) Scope and Requirements
+7.1.3) UX/UI Design and Data Structure
+7.1.4) Software development
+7.1.5) Testing
+7.1.6) Deployment]]></notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
